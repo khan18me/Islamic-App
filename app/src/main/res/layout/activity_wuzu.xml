@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context=".namaz.Wuzu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_press1"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                app:srcCompat="@drawable/backicon" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/font_large"
+            android:text="HOW TO PERFORM WUZU"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/txtwh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/txtwh"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w1"></ImageView>
+
+        <TextView
+            android:id="@+id/stp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step1"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w2"></ImageView>
+
+        <TextView
+            android:id="@+id/stp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step2"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w3"></ImageView>
+
+        <TextView
+            android:id="@+id/stp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step3"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w4"></ImageView>
+
+        <TextView
+            android:id="@+id/stp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step4"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w5"></ImageView>
+
+        <TextView
+            android:id="@+id/stp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step5"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w6"></ImageView>
+
+        <TextView
+            android:id="@+id/stp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step6"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w7"></ImageView>
+
+        <TextView
+            android:id="@+id/stp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step7"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w8"></ImageView>
+
+        <TextView
+            android:id="@+id/stp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step8"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w9"></ImageView>
+
+        <TextView
+            android:id="@+id/stp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+            android:text="@string/step9"
+            android:textColor="@color/black"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/w10"></ImageView>
+
+        <TextView
+            android:id="@+id/stp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="2dp"
+            android:paddingBottom="10dp"
+            android:text="@string/step10"
+            android:textColor="@color/black"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

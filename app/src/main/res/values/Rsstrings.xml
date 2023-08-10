@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string-array name="SurahList">
+    <item>1\tاالفاتحة\tAl-Fatihah</item>
+    <item>2\tاﻟﺒﻘﺮﺓ\tAl-Baqarah</item>
+    <item>3\tاۤل عمران\tAale-Imran</item>
+    <item>4\tاﻟﻨﺴﺄ\tAn-Nisa</item>
+    <item>5\tالمائدة\t	Al-Maidah</item>
+
+</string-array></resources>

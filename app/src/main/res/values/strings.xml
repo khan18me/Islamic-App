@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Islamic App</string>
+    <string name="rules_amp_methods"><![CDATA[RULES & METHODS]]></string>
+    <string name="txtwh">
+        <br>Wudu is required before praying salah. The steps must be completed in the given
+order below, and they must be done without long pauses between each of the steps.
+
+</br>
+    </string>
+    <string name="step1">
+     <n><br><b>  Steps:- </b></br></n>
+       <b> <br>1.</br></b>  <br>	 Make niyyah (intention) to perform wudu, and say "Bismillah" (in the name of Allah) before starting wudu.</br>
+                                           <br></br>
+                                           <br> •	Niyyah is the Islamic concept of performing an act for the sake of Allah. To truly perform wudu, you should center yourself and quiet your thoughts, focusing seriously on what you are doing (intending to perform wudu (ablution)). </br>
+                                                     <br></br>
+                                      <n>      <br> •	Niyyah is not said out loud and should be made in the heart; focusing on the phrase "Bismillah" (in the name of Allah) is a good way to accomplish the necessary centering. Say it out loud or silently to yourself, whichever makes you comfortable.</br> </n>
+        <br></br><br></br><br></br>
+
+    </string>
+    <string name="step2">
+         <b> <br>2.</br></b> <br>Wash your hands. Use your left hand to wash your right hand. Do this three times. After that, use your right hand to wash your left hand three times. Make sure to wash in between your fingers and all the way up to your wrists.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step3"><b> <br>3.</br></b> <br>	Take water into your mouth. Use your right hand to cup water into your mouth three times. Swish it around in your cheeks. Do this thoroughly.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step4"><b> <br>4.</br></b> <br>	Inhale water into your nose. Use your right hand to cup water and inhale it into your nose and blow out three times. Snort sharply and abruptly without taking too much water into your nose and choking yourself. If you cannot inhale water into your nose, you can wet your fingers and put water on the lower part of your nostrils.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step5"><b> <br>5.</br></b> <br>	Wash your face. Wash your face three times by spreading your hands from your right ear to the left, and from the hairline to the chin.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step6"><b> <br>6.</br></b> <br>	Wash your lower arms from wrists to elbows, leaving no part dry. From your wrist to your elbow, wash your right arm with your left hand three times and then wash your left arm with your right hand three times</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step7"><b> <br>7.</br></b> <br>	Clean your head. This is known as "maseh". Using your wet hands, gently wipe the entire head once, from the forehead to the back of the head, and wipe it again forward from the back of the head to the forehead.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step8"><b> <br>8.</br></b> <br>	Wipe your ears inside and out. Use your thumb to clean behind your ears from the bottom upward. This is also done one time.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step9"><b> <br>9.</br></b> <br>	Wash both of your feet. Clean up to the ankles and be sure water goes between the toes. Use your pinky finger and go through each toe to eliminate anything between. Start with your right foot and scrub each foot three times.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="step10"><b> <br>10.</br></b> <br> Finish your wudu with the dua - Ash-hadu ’an laa ’ilaaha ’illallaahu wahdahu laa shareeka lah, wa ’ash-hadu ’anna Muhammadan ’abduhu wa Rasooluh.</br>
+                                               <br> I bear witness that none has the right to be worshipped but Allah alone, Who has no partner; and I bear witness that Muhammad is His slave and His Messenger.</br>
+                                                     <br></br>
+                                                         <br>•	Memorize the order. Wudu should be performed one after another   (Tarthib), so it is important that you know the order of the steps so that you can follow them accurately.</br>
+                                                     <br></br>
+                                                         <br>•	If you make a mistake in the order, you must begin your wudu from the beginning again.</br>
+        <br></br><br></br><br></br>
+    </string>
+    <string name="title_activity_dua">dua</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="duaen">Duaen</string>
+    <string name="gps_settings_title" />
+    <string name="gps_settings_text" />
+    <string name="city">City</string>
+    <string name="location">Detect location</string>
+    <string name="madina">Madina</string>
+    <string name="fajr">Fajr</string>
+    <string name="dohr">Dhor</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Magrib</string>
+    <string name="isha">Isha</string>
+    <string name="menu_prayertimes">Salah Times</string>
+    <string name="menu_prayersettings">Prayer settings</string>
+    <string name="ok" />
+    <string name="cancel" />
+    <string name="gpsplz" />
+    <string name="consignes" />
+    <string name="qibladirection" />
+    <string name="fromnorth" />
+    <string name="qiblatips" />
+    <string name="permission_not_garanted" />
+    <string name="coord" />
+    <string name="latitude" />
+    <string name="locationunready" />
+    <string name="longitude" />
+
+    <string name="manualcorr" />
+
+    <string name="minutes"></string>
+    <string name="locationloading" />
+    <string name="internetfound">Data renewing process</string>
+    <string name="internetlost">To refresh the page, you must be connected to the Internet</string>
+    <string name="hello" />
+    <string name="firstalertdialogmsg">We thank you for downloading this application, do not forget to share it with loved ones and take the initiative to recite, dhikr and good deeds</string>
+
+    <string name="clickbackagaintoexit">Press again to exit the application</string>
+    <string name="errorloadprayertimes">Faulty renewal of prayer times</string>
+
+
+
+    <string name="menu_fadl1">It is one of the best simple righteous deeds that bring a Muslim closer to his Lord, the Glorious and the Exalted.</string>
+    <string name="menu_fadl2">Some verses and hadiths on the merit of dhikr, supplication and urging them:</string>
+    <string name="menu_fadlGod1">Allah says :</string>
+    <string name="menu_fadlGod2">And the Almighty said:</string>
+    <string name="menu_fadlProphet">And the Messenger of God, may God bless him and grant him peace, said:</string>
+    <string name="ProphetSaid">The prophet Peace Be Upon Him said:</string>
+    <string name="thought1" translatable="false">"وَلَذِكْرُ اللَّهِ أَكْبَرُ".</string>
+    <string name="thought2" translatable="false">"وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا".</string>
+    <string name="thought3" translatable="false">"فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلا تَكْفُرُونِ".</string>
+    <string name="thought4" translatable="false">"يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْراً كَثِيراً".</string>
+    <string name="thought5" translatable="false"> "وَالذَّاكِرِينَ اللَّهَ كَثِيراً وَالذَّاكِرَاتِ أَعَدَّ اللَّهُ لَهُمْ مَغْفِرَةً وَأَجْراً عَظِيماً".</string>
+    <string name="thought6" translatable="false">"وَاذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ".</string>
+    <string name="thought7" translatable="false">"الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ".</string>
+    <string name="thought8" translatable="false">"فَإِذَا قَضَيْتُم مَّنَاسِكَكُمْ فَاذْكُرُوا اللَّهَ كَذِكْرِكُمْ آبَاءَكُمْ أَوْ أَشَدَّ ذِكْرًا".</string>
+    <string name="thought9" translatable="false">"يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُلْهِكُمْ أَمْوَالُكُمْ وَلَا أَوْلَادُكُمْ عَن ذِكْرِ اللَّهِ".</string>
+    <string name="thought10" translatable="false"> "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعاً وَخِيفَةً وَدُونَ الْجَهْرِ مِنْ الْقَوْلِ بِالْغُدُوِّ وَالآصَالِ وَلا تَكُنْ مِنْ الْغَافِلِينَ".</string>
+    <string name="thought11" translatable="false">" مثل الذي يذكر ربه و الذي لا يذكر ربه مثل الحي و الميت."</string>
+    <string name="thought12" translatable="false">ألا أنبئكم بخير أعمالكم و أزكاها عند مليككم و أرفعها في درجاتكم و خير لكم من أنفاق الذهب و الورق و خير لكم من أن تلقوا عدوكم فتضربوا أعناقهم و يضربوا أعناقكم ?، قالو بلى .  قال : (ذكر الله تعالى).</string>
+    <string name="thought13" translatable="false">يقول الله تعالى : أنا عند ظن عبدي بي ، و أنا معه إذا ذكرني ، فان ذكرني في نفسه ذكرته في نفسي و ان ذكرني في ملأ ذكرته في ملأ خير منهم ، و ان تقرب إلي شبرا تقربت اليه ذراعا و ان تقرب إلى ذراعا تقربت اليه باعا و ان اتاني يمشي أتيته هرولة.</string>
+    <string name="thought14" translatable="false">من قعد مقعدا لم يذكر الله فيه كانت عليه من الله تره ، و من أضطجع مضجعا لم يذكر فيه الله كانت عليه ترة.</string>
+    <string name="thought15" translatable="false">ما جلس قوم مجلسا لم يذكروا الله فيه ، و لم يصلوا على نبيهم الا كان عليهم ترة فان شاء عذبهم و ان شاء غفر لهم.</string>
+    <string name="thought16" translatable="false">" ما من قوم يقومون من مجلس لا يذكرون الله فيه الا قاموا عن مثل جيفة حمار و كان لهم حسره."</string>
+    <string name="prayertimesloaded">Prayer times have been updated</string>
+
+
+
+
+
+    <string name="AdkarExtra1">The adhkaar illuminates the servant his path in his world and in the afterlife and on the straight path</string>
+    <string name="AdkarExtra2">The dhikr works to cleanse the tongue and distract it from backbiting, gossip and spoiled saying</string>
+    <string name="AdkarExtra3">The dhikr brings mercy, tranquility, comfort and security to the Muslim and envelops him with angels</string>
+    <string name="AdkarExtra4">Remembrance of God Almighty is equivalent to the best deeds of freeing people and striving for the sake of God Almighty, and spending money for His</string>
+    <string name="AdkarExtra5">The morning and evening remembrances relax the heart and spread reassurance and psychological comfort in the Muslim’s heart</string>
+    <string name="AdkarExtra6">The morning and evening remembrance help the Muslim to avoid negligence from the remembrance of God</string>
+    <string name="SalatThought1" translatable="false">َالَّذِينَ هُمْ عَلَى صَلَاتِهِمْ يُحَافِظُونَ*أُولَئِكَ فِي جَنَّاتٍ مُّكْرَمُونَ</string>
+    <string name="SalatThought2" translatable="false">إِنَّ الصَّلاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَاباً مَوْقُوتاً</string>
+    <string name="SalatThought3" translatable="false">وَأَنْ أَقِيمُوا الصَّلَاةَ وَاتَّقُوهُ وَهُوَ الَّذِي إِلَيْهِ تُحْشَرُونَِ</string>
+    <string name="SalatThought4" translatable="false">يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ</string>
+    <string name="SalatThought5" translatable="false">وَأَقِمِ الصَّلَاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ ذَلِكَ ذِكْرَى لِلذَّاكِرِينَ</string>
+    <string name="SalatThought6" translatable="false">يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ</string>
+    <string name="SalatThought7" translatable="false">إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</string>
+    <string name="SalatExtra1">Prayer is the first to be held accountable on the Day of Resurrection. Its righteousness is good for his deeds, and its corruption is corruption for his deeds</string>
+    <string name="SalatExtra2">Maintaining the prayer on time for one of the most beloved works of God Almighty</string>
+    <string name="SalatExtra3">Prayer is a light, guidance and pilgrimage to its owner in this world and the hereafter when meeting God Almighty</string>
+    <string name="SalatExtra4">Prayer is a light for its owner in this world and in the hereafter</string>
+    <string name="SalatExtra5">Prayer is the best deeds for God Almighty after the two Shahada</string>
+    <string name="itsprayertime">Prayer</string>
+
+</resources>

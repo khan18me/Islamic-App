@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ParaList">
+        <item>1\tالم\tAlif Lam Meem</item>
+        <item>2\tسَيَقُولُ\tSayaqool</item>
+        <item>3\tتِلْكَ الرُّسُلُ\tTilkal Rusull</item>
+        <item>4\tلَنْ تَنَالُوا\tLan Tana Loo</item>
+        <item>5\tوَالْمُحْصَنَاتُ\tWal Mohsanat</item>
+
+    </string-array>
+
+</resources>
