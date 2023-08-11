@@ -20,35 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" >
     </TextView>
 
-    <com.robertlevonyan.views.expandable.Expandable
-        android:id="@+id/expandable"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:exp_animateExpand="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <include
-            android:id="@+id/header"
-            layout="@layout/header_view" />
-
-        <include
-            android:id="@+id/content"
-            layout="@layout/content_view" />
-    </com.robertlevonyan.views.expandable.Expandable>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/list"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:clipToPadding="false"
-        android:paddingTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title" />
 
 
 

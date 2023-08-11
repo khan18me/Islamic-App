@@ -1,23 +1,29 @@
 package com.example.islamicapp.fragment;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 
 import com.example.islamicapp.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Read_By_Surah#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class Read_By_Surah extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    ListView listView;
+    String[] rs_name;
+    String[] rs_urls;
+    ArrayAdapter<String> arrayAdapter;
+
+
+
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -29,15 +35,7 @@ public class Read_By_Surah extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Read_By_Surah.
-     */
-    // TODO: Rename and change types and number of parameters
+
     public static Read_By_Surah newInstance(String param1, String param2) {
         Read_By_Surah fragment = new Read_By_Surah();
         Bundle args = new Bundle();
@@ -60,6 +58,34 @@ public class Read_By_Surah extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_read__by__surah, container, false);
+        View view = inflater.inflate(R.layout.fragment_read__by__surah, container, false);
+
+        listView = view.findViewById(R.id.listView2);
+        listView.setDivider(null);
+        rs_name = Rs_Lists.rs_name;
+        rs_urls = Rs_Lists.rs_urls;
+
+        arrayAdapter = new ArrayAdapter<String>(getContext(), R.layout.rs_item, R.id.item_txt, rs_name);
+        listView.setAdapter(arrayAdapter);
+
+        listView.setOnItemClickListener((parent, view1, position, id) -> {
+            String pdfUrl = rs_urls[position];
+            openPdf(pdfUrl);
+        });
+
+        return view;
+    }
+
+    private void openPdf(String pdfUrl) {
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.parse(pdfUrl), "application/pdf");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            // Handle error: PDF reader app not found
+        }
     }
 }
