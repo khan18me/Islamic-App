@@ -94,7 +94,6 @@ order below, and they must be done without long pauses between each of the steps
     <string name="errorloadprayertimes">Faulty renewal of prayer times</string>
 
 
-
     <string name="menu_fadl1">It is one of the best simple righteous deeds that bring a Muslim closer to his Lord, the Glorious and the Exalted.</string>
     <string name="menu_fadl2">Some verses and hadiths on the merit of dhikr, supplication and urging them:</string>
     <string name="menu_fadlGod1">Allah says :</string>
@@ -120,9 +119,6 @@ order below, and they must be done without long pauses between each of the steps
     <string name="prayertimesloaded">Prayer times have been updated</string>
 
 
-
-
-
     <string name="AdkarExtra1">The adhkaar illuminates the servant his path in his world and in the afterlife and on the straight path</string>
     <string name="AdkarExtra2">The dhikr works to cleanse the tongue and distract it from backbiting, gossip and spoiled saying</string>
     <string name="AdkarExtra3">The dhikr brings mercy, tranquility, comfort and security to the Muslim and envelops him with angels</string>
@@ -142,5 +138,6 @@ order below, and they must be done without long pauses between each of the steps
     <string name="SalatExtra4">Prayer is a light for its owner in this world and in the hereafter</string>
     <string name="SalatExtra5">Prayer is the best deeds for God Almighty after the two Shahada</string>
     <string name="itsprayertime">Prayer</string>
+    <string name="title_activity_arabic_quran">arabic_quran</string>
 
 </resources>

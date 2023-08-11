@@ -19,6 +19,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".arabic_quran"
+            android:exported="false"
+            android:label="@string/title_activity_arabic_quran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".SalatSettings"
             android:exported="false" />
         <activity
