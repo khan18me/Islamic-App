@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".dua.health_more"
+            android:exported="false" />
+        <activity
+            android:name=".dua.prayer"
+            android:exported="false" />
+        <activity
             android:name=".arabic_quran"
             android:exported="false"
             android:label="@string/title_activity_arabic_quran"

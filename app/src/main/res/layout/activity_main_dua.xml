@@ -102,7 +102,7 @@
         </androidx.cardview.widget.CardView>
 
 
-        /*second one*/
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -131,7 +131,7 @@
                         android:layout_width="210dp"
                         android:layout_height="100dp"
                         android:padding="15dp"
-                        android:text="NAMAZ &amp; DUA"
+                        android:text="Prayer"
                         android:textColor="@android:color/holo_orange_dark"
                         android:textSize="30sp"
                         android:visibility="visible" />
@@ -160,7 +160,7 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        /*third one*/
+
 
 
 
@@ -193,7 +193,7 @@
                         android:padding="15dp"
                         android:text="HEALTH &amp; MORE"
                         android:textColor="@android:color/holo_green_dark"
-                        android:textSize="30sp"
+                        android:textSize="28sp"
                         android:visibility="visible" />
 
                     <Button

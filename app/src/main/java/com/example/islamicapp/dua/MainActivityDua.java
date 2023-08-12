@@ -34,12 +34,12 @@ public class MainActivityDua extends AppCompatActivity {
 
         });
         btnND.setOnClickListener(v -> {
-            Intent newActivity = new Intent(MainActivityDua.this, daytoday.class);
+            Intent newActivity = new Intent(MainActivityDua.this, prayer.class);
             startActivity(newActivity);
 
         });
         btnH.setOnClickListener(v -> {
-            Intent newActivity = new Intent(MainActivityDua.this,daytoday.class);
+            Intent newActivity = new Intent(MainActivityDua.this,health_more.class);
             startActivity(newActivity);
 
         });
