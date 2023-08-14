@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".ImageViewerActivity">
+    tools:context="com.pyaraislam.islamicapp.ImageViewerActivity">
 
     <FrameLayout
         android:layout_width="match_parent"

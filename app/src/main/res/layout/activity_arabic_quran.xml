@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".arabic_quran">
+    tools:context="com.pyaraislam.islamicapp.arabic_quran">
 
     <com.google.android.material.tabs.TabLayout
         android:layout_width="409dp"

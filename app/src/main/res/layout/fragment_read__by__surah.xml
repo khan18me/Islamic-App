@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Read_By_Surah">
+    tools:context="com.pyaraislam.islamicapp.fragment.Read_By_Surah">
 
     <LinearLayout
         android:layout_width="match_parent"

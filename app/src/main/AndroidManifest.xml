@@ -25,40 +25,38 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ImageViewerActivity"
+            android:name="com.pyaraislam.islamicapp.ImageViewerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.pyaraislam.islamicapp.Wallpaper"
             android:exported="false" />
         <activity
-            android:name=".FullImageActivity"
+            android:name="com.pyaraislam.islamicapp.dua.health_more"
             android:exported="false" />
         <activity
-            android:name=".Wallpaper"
+            android:name="com.pyaraislam.islamicapp.dua.prayer"
             android:exported="false" />
         <activity
-            android:name=".dua.health_more"
-            android:exported="false" />
-        <activity
-            android:name=".dua.prayer"
-            android:exported="false" />
-        <activity
-            android:name=".arabic_quran"
+            android:name="com.pyaraislam.islamicapp.arabic_quran"
             android:exported="false"
             android:label="@string/title_activity_arabic_quran"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SalatSettings"
+            android:name="com.pyaraislam.islamicapp.SalatSettings"
             android:exported="false" />
         <activity
-            android:name=".QiblaFinder"
+            android:name="com.pyaraislam.islamicapp.QiblaFinder"
             android:exported="false" />
-        <activity android:name=".dua.daytoday" />
-        <activity android:name=".dua.MainActivityDua" />
-        <activity android:name=".namaz.rakats" />
-        <activity android:name=".namaz.Wuzu" />
-        <activity android:name=".Namaz" />
-        <activity android:name=".Quran" />
-        <activity android:name=".Tasbih" />
+        <activity android:name="com.pyaraislam.islamicapp.dua.daytoday" />
+        <activity android:name="com.pyaraislam.islamicapp.dua.MainActivityDua" />
+        <activity android:name="com.pyaraislam.islamicapp.namaz.rakats" />
+        <activity android:name="com.pyaraislam.islamicapp.namaz.Wuzu" />
+        <activity android:name="com.pyaraislam.islamicapp.Namaz" />
+        <activity android:name="com.pyaraislam.islamicapp.Quran" />
+        <activity android:name="com.pyaraislam.islamicapp.Tasbih" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.pyaraislam.islamicapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

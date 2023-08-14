@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/design_default_color_background"
     android:orientation="vertical"
-    tools:context=".namaz.Wuzu">
+    tools:context="com.pyaraislam.islamicapp.namaz.Wuzu">
 
 
     <LinearLayout
