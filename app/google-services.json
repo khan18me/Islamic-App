@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "199841766959",
+    "firebase_url": "https://islamicapp-802-default-rtdb.firebaseio.com",
+    "project_id": "islamicapp-802",
+    "storage_bucket": "islamicapp-802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199841766959:android:5aa254693610115c66f0da",
+        "android_client_info": {
+          "package_name": "com.example.islamicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199841766959-n20j7rlmdfmptfds6pp594s5vco98g1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBhZuwQ-djsWdWdW2YACqNUTjgG5f60GI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199841766959-n20j7rlmdfmptfds6pp594s5vco98g1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199841766959:android:36dfae7486517acd66f0da",
+        "android_client_info": {
+          "package_name": "com.pyaraislam.islamicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199841766959-n20j7rlmdfmptfds6pp594s5vco98g1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBhZuwQ-djsWdWdW2YACqNUTjgG5f60GI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199841766959-n20j7rlmdfmptfds6pp594s5vco98g1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

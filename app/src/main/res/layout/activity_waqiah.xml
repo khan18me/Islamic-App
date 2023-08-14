@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pyaraislam.islamicapp.Waqiah">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Islamic Waqia"
+            android:id="@+id/tv_waqiah"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/ubuntu"
+            android:textStyle="bold"
+            android:textColor="@color/colorCyan1">
+
+        </TextView>
+
+        <WebView
+            android:layout_below="@+id/tv_waqiah"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView1"/>
+
+        <TextView
+            android:id="@+id/tv_webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView1"
+            android:text="Allah par bharose ki kahani | नैतिक कहानियां | Don't Lose Hope in Allah | Pyaara Islam"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView1"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView2"/>
+        <TextView
+            android:id="@+id/tv_webView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView2"
+            android:text="Imam Hussain Ka Akhri Sajda aur Shahadat | 10 Muharam Ka Waqia | karbala ka waqia | Pyaara Islam"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView2"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView3"/>
+        <TextView
+            android:id="@+id/tv_webView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView3"
+            android:text="Hazrat Abu Bakar life story – Hazrat Abu Bakar ki Shan – Pyaara Islam"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView3"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView4"/>
+
+        <TextView
+            android:id="@+id/tv_webView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView4"
+            android:text="Seerat Hazrat Bilal Habshee RA ka Waqia | Bilal ki Azan | Hazrat Bilal RA Life Story"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+
+
+        <WebView
+            android:layout_below="@+id/tv_webView4"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView5"/>
+
+        <TextView
+            android:id="@+id/tv_webView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView5"
+            android:text="Shab e Meraj Ka Waqia || 27 Rajab || Journey of Sky || Pyaara Islam"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView5"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView6"/>
+        <TextView
+            android:id="@+id/tv_webView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView6"
+            android:text="Khana Kaaba Ki Tameer Ka Waqiya | Islamic Stories | ISLAMIC KAHANI"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView6"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView7"/>
+        <TextView
+            android:id="@+id/tv_webView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView7"
+            android:text="Hazrat Yaqoob as Ka Waqiya | Islamic Stories | ISLAMIC KAHANI"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <WebView
+            android:layout_below="@+id/tv_webView7"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/webView8"/>
+
+        <TextView
+            android:id="@+id/tv_webView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/webView8"
+            android:text="Hazrat Hood as Ka Waqiya | Islamic Stories | ISLAMIC KAHANI"
+            android:textStyle="bold"
+            android:fontFamily="@font/changa_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -6,7 +6,7 @@ android {
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.pyaraislam.islamicapp"
+        applicationId "com.example.islamicapp"
         minSdkVersion 22
         targetSdkVersion 34
         versionCode 1

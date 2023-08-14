@@ -497,7 +497,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/tv_waqiah"
-                        android:text="Waqiah"
+                        android:text="Waqia"
                         android:textSize="20sp"
                         android:textColor="@color/black"
                         android:fontFamily="sans-serif"

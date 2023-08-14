@@ -417,7 +417,7 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, Wallpaper.class);
                 break;
             case R.id.waqiah:
-                intent = new Intent(MainActivity.this, Namaz.class);
+                intent = new Intent(MainActivity.this, Waqiah.class);
                 break;
         }
         if (intent != null) {
