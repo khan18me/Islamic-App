@@ -77,12 +77,16 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout relativeLayout4 = findViewById(R.id.dua);
         RelativeLayout relativeLayout5 = findViewById(R.id.qibla_direction);
         RelativeLayout relativeLayout6 = findViewById(R.id.namaz);
+        RelativeLayout relativeLayout7 = findViewById(R.id.wallpaper);
+        RelativeLayout relativeLayout8 = findViewById(R.id.waqiah);
         relativeLayout1.setOnClickListener(onClickListener);
         relativeLayout2.setOnClickListener(onClickListener);
         relativeLayout3.setOnClickListener(onClickListener);
         relativeLayout4.setOnClickListener(onClickListener);
         relativeLayout5.setOnClickListener(onClickListener);
         relativeLayout6.setOnClickListener(onClickListener);
+        relativeLayout7.setOnClickListener(onClickListener);
+        relativeLayout8.setOnClickListener(onClickListener);
         validatePermision();
     }
 
@@ -406,6 +410,12 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, QiblaFinder.class);
                 break;
             case R.id.namaz:
+                intent = new Intent(MainActivity.this, Namaz.class);
+                break;
+            case R.id.wallpaper:
+                intent = new Intent(MainActivity.this, Wallpaper.class);
+                break;
+            case R.id.waqiah:
                 intent = new Intent(MainActivity.this, Namaz.class);
                 break;
         }
