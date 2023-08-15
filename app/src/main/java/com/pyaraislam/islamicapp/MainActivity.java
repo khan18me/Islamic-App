@@ -10,22 +10,25 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.example.islamicapp.R;
-import com.pyaraislam.islamicapp.dua.MainActivityDua;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
 import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
+import com.pyaraislam.islamicapp.dua.MainActivityDua;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -42,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> NotifSalatMessages = new ArrayList<>();
 
     TextView mFajr,mDuhur,mAsr,mMaghrib,mIsha,mCity;
+
+    private BottomNavigationView bottomNavigationView;
 
 
     @Override
@@ -63,33 +68,54 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+        CardView card1 = findViewById(R.id.tasbeeh);
+        CardView card2 = findViewById(R.id.quran);
+        CardView card3 = findViewById(R.id.hadees);
+        CardView card4 = findViewById(R.id.dua);
+        CardView card5 = findViewById(R.id.qibla_direction);
+        CardView card6 = findViewById(R.id.namaz);
+        CardView card7 = findViewById(R.id.wallpaper);
+        CardView card8 = findViewById(R.id.waqiah);
+        card1.setOnClickListener(onClickListener);
+        card2.setOnClickListener(onClickListener);
+        card3.setOnClickListener(onClickListener);
+        card4.setOnClickListener(onClickListener);
+        card5.setOnClickListener(onClickListener);
+        card6.setOnClickListener(onClickListener);
+        card7.setOnClickListener(onClickListener);
+        card8.setOnClickListener(onClickListener);
+
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
 
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.menu_home:
+                        // Start HomeActivity
+                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        return true;
+                    case R.id.menu_posts:
+                        // Start SearchActivity
+                        startActivity(new Intent(MainActivity.this, Quran.class));
+                        return true;
+                    case R.id.menu_reels:
+                        // Start ProfileActivity
+                        startActivity(new Intent(MainActivity.this, Tasbih.class));
+                        return true;
+                }
+                return false;
+            }
+            
+        });
 
 
-
-
-
-
-
-        RelativeLayout relativeLayout1 = findViewById(R.id.tasbeeh);
-        RelativeLayout relativeLayout2 = findViewById(R.id.quran);
-        RelativeLayout relativeLayout3 = findViewById(R.id.hadees);
-        RelativeLayout relativeLayout4 = findViewById(R.id.dua);
-        RelativeLayout relativeLayout5 = findViewById(R.id.qibla_direction);
-        RelativeLayout relativeLayout6 = findViewById(R.id.namaz);
-        RelativeLayout relativeLayout7 = findViewById(R.id.wallpaper);
-        RelativeLayout relativeLayout8 = findViewById(R.id.waqiah);
-        relativeLayout1.setOnClickListener(onClickListener);
-        relativeLayout2.setOnClickListener(onClickListener);
-        relativeLayout3.setOnClickListener(onClickListener);
-        relativeLayout4.setOnClickListener(onClickListener);
-        relativeLayout5.setOnClickListener(onClickListener);
-        relativeLayout6.setOnClickListener(onClickListener);
-        relativeLayout7.setOnClickListener(onClickListener);
-        relativeLayout8.setOnClickListener(onClickListener);
         validatePermision();
+
     }
+
+
 
     private void NotifMessages() {
         NotifMessages.add(getString(R.string.menu_fadlGod1)+" ”"+getString(R.string.thought1)+"“");
@@ -371,6 +397,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    // Set up the listener for item clicks
+
+
 
 
 
@@ -459,65 +488,3 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-
-
-   /* RelativeLayout relativeLayout1 = findViewById(R.id.exercise);
-        relativeLayout1.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, levels.class);
-        startActivity(intent);
-
-        }
-        });
-
-        RelativeLayout relativeLayout2 = findViewById(R.id.shop);
-        relativeLayout2.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, shop.class);
-        startActivity(intent);
-
-        }
-        });
-
-        RelativeLayout relativeLayout3 = findViewById(R.id.diet);
-        relativeLayout3.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, diet.class);
-        startActivity(intent);
-
-        }
-        });
-
-        RelativeLayout relativeLayout4 = findViewById(R.id.reminder);
-        relativeLayout4.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, reminder.class);
-        startActivity(intent);
-
-        }
-        });
-
-        RelativeLayout relativeLayout5 = findViewById(R.id.settings);
-        relativeLayout5.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, settings.class);
-        startActivity(intent);
-        }
-        });
-
-        RelativeLayout relativeLayout6 = findViewById(R.id.music);
-        relativeLayout6.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View view) {
-        openMusicApp();
-        }
-        });
-
-
-
-        } */
