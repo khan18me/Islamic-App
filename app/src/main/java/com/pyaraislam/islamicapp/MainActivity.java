@@ -29,6 +29,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 import com.pyaraislam.islamicapp.dua.MainActivityDua;
+import com.pyaraislam.islamicapp.reels.reels;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -98,11 +99,11 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.menu_posts:
                         // Start SearchActivity
-                        startActivity(new Intent(MainActivity.this, Quran.class));
+                        startActivity(new Intent(MainActivity.this, posts.class));
                         return true;
                     case R.id.menu_reels:
                         // Start ProfileActivity
-                        startActivity(new Intent(MainActivity.this, Tasbih.class));
+                        startActivity(new Intent(MainActivity.this, reels.class));
                         return true;
                 }
                 return false;

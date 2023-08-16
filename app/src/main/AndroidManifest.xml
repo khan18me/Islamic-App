@@ -25,6 +25,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name="com.pyaraislam.islamicapp.reels.reels"
+            android:exported="false" />
+        <activity
+            android:name="com.pyaraislam.islamicapp.posts"
+            android:exported="false" />
+        <activity
             android:name="com.pyaraislam.islamicapp.Waqiah"
             android:exported="false" />
         <activity
