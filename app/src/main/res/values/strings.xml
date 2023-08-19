@@ -9,47 +9,197 @@ order below, and they must be done without long pauses between each of the steps
     </string>
     <string name="step1">
      <n><br><b>  Steps:- </b></br></n>
-       <b> <br>1.</br></b>  <br>	 Make niyyah (intention) to perform wudu, and say "Bismillah" (in the name of Allah) before starting wudu.</br>
-                                           <br></br>
-                                           <br> •	Niyyah is the Islamic concept of performing an act for the sake of Allah. To truly perform wudu, you should center yourself and quiet your thoughts, focusing seriously on what you are doing (intending to perform wudu (ablution)). </br>
-                                                     <br></br>
-                                      <n>      <br> •	Niyyah is not said out loud and should be made in the heart; focusing on the phrase "Bismillah" (in the name of Allah) is a good way to accomplish the necessary centering. Say it out loud or silently to yourself, whichever makes you comfortable.</br> </n>
-        <br></br><br></br><br></br>
+       <b> <br>1.</br></b>  <br>    Make niyyah (intention) to perform wudu, and say "Bismillah" (in the name of Allah) before starting wudu.</br>
+                                            \n•	Niyyah is the Islamic concept of performing an act for the sake of Allah. To truly perform wudu, you should center yourself and quiet your thoughts, focusing seriously on what you are doing (intending to perform wudu (ablution)).
+                                            \n•	Niyyah is not said out loud and should be made in the heart; focusing on the phrase "Bismillah" (in the name of Allah) is a good way to accomplish the necessary centering. Say it out loud or silently to yourself, whichever makes you comfortable.
+
 
     </string>
     <string name="step2">
          <b> <br>2.</br></b> <br>Wash your hands. Use your left hand to wash your right hand. Do this three times. After that, use your right hand to wash your left hand three times. Make sure to wash in between your fingers and all the way up to your wrists.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step3"><b> <br>3.</br></b> <br>	Take water into your mouth. Use your right hand to cup water into your mouth three times. Swish it around in your cheeks. Do this thoroughly.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step4"><b> <br>4.</br></b> <br>	Inhale water into your nose. Use your right hand to cup water and inhale it into your nose and blow out three times. Snort sharply and abruptly without taking too much water into your nose and choking yourself. If you cannot inhale water into your nose, you can wet your fingers and put water on the lower part of your nostrils.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step5"><b> <br>5.</br></b> <br>	Wash your face. Wash your face three times by spreading your hands from your right ear to the left, and from the hairline to the chin.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step6"><b> <br>6.</br></b> <br>	Wash your lower arms from wrists to elbows, leaving no part dry. From your wrist to your elbow, wash your right arm with your left hand three times and then wash your left arm with your right hand three times</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step7"><b> <br>7.</br></b> <br>	Clean your head. This is known as "maseh". Using your wet hands, gently wipe the entire head once, from the forehead to the back of the head, and wipe it again forward from the back of the head to the forehead.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step8"><b> <br>8.</br></b> <br>	Wipe your ears inside and out. Use your thumb to clean behind your ears from the bottom upward. This is also done one time.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step9"><b> <br>9.</br></b> <br>	Wash both of your feet. Clean up to the ankles and be sure water goes between the toes. Use your pinky finger and go through each toe to eliminate anything between. Start with your right foot and scrub each foot three times.</br>
-        <br></br><br></br><br></br>
+
     </string>
     <string name="step10"><b> <br>10.</br></b> <br> Finish your wudu with the dua - Ash-hadu ’an laa ’ilaaha ’illallaahu wahdahu laa shareeka lah, wa ’ash-hadu ’anna Muhammadan ’abduhu wa Rasooluh.</br>
-                                               <br> I bear witness that none has the right to be worshipped but Allah alone, Who has no partner; and I bear witness that Muhammad is His slave and His Messenger.</br>
-                                                     <br></br>
-                                                         <br>•	Memorize the order. Wudu should be performed one after another   (Tarthib), so it is important that you know the order of the steps so that you can follow them accurately.</br>
-                                                     <br></br>
-                                                         <br>•	If you make a mistake in the order, you must begin your wudu from the beginning again.</br>
-        <br></br><br></br><br></br>
+                                               \nI bear witness that none has the right to be worshipped but Allah alone, Who has no partner; and I bear witness that Muhammad is His slave and His Messenger.
+                                                         \n•	Memorize the order. Wudu should be performed one after another   (Tarthib), so it is important that you know the order of the steps so that you can follow them accurately.
+                                                         \n•	If you make a mistake in the order, you must begin your wudu from the beginning again.
+
     </string>
+
+
+    <string name="txtnamaz">
+        <br>Prayer (salat; plural salah or "salawat") is one of the five pillars of Islam. Completing the five daily prayers in the way taught by Prophet Muhammad (PBUH) is an obligation for all adult Muslims (those who have reached puberty), and should be strictly required of children aged ten and over. It is believed that communication with Allaah is critical to strengthening the faith of the believer. Muslims believe that Allaah speaks to us through the Qur an, and salah is our means of responding to Allaah. Whether you re just curious as to how Muslims pray or if you re looking to learn for yourself, it s never too early to start.
+</br>
+    </string>
+    <string name="namaz_step1">
+     <n><br><b>  Steps:- </b></br></n>
+       <b> <br>1.</br></b><br>	 Ensure the area chosen for prayer is clean and free of impurities. \nThis includes your body, your clothes, and the place of prayer itself.</br>
+                                            \n•	Perform wudu. You must be ritually pure before you go start praying. If you re not, it s required to perform wudu (ablution) before you do. If since your last prayer, you have urinated, defecated, passed gas, bled excessively, passed madhy (urethral fluid) or fallen asleep deeply, you need to perform wudu.
+                                            \n•	If you are praying in a masjid (mosque), which is highly encouraged for men, enter quietly—other Muslims might still be praying and you don t want to disturb them.
+                                            \n• Many Muslims families keep a dedicated area for salah in their home. If you are unsure of the cleanliness of your area, spread a mat on the floor for good measure. This prayer rug is very important to Islamic culture.
+
+    </string>
+    <string name="namaz_step2">
+         <b> <br>2.</br></b> <br> Perform ghusl (full shower) if needed. \nCertain circumstances will require that you perform ghusl instead of wudu to be fully cleansed by removing najas (impurities) before praying. You need to perform ghusl if you wish to pray after having sexual intercourse, ending your menstruation period or postpartum bleeding, giving birth, having a wet dream or ejaculating with sexual pleasure.</br>
+                                            \n• To perform ghusl, you must wash your entire body and hair with water. It is recommended that you wash 3 times.
+                                            \n•	Note that when you perform either wudu or ghusl, anything that prevents water from touching the obligatory areas of the body must be removed, including things such as nail polish, accessories and waterproof mascara.
+                                            \n• If you do not perform wudu or ghusl when required by the Shariah then the prayer will not be valid and will not be accepted.
+    </string>
+    <string name="namaz_step3"><b> <br>3.</br></b> <br>Perform tayammum (dry purification) if needed.</br>
+                                                        \nIf a Muslim is unable to use water, he or she may choose to perform tayammum instead of wudu or ghusl. This rite involves using clean soil or dirt or a natural rock that has not been used before to perform tayammum.
+    </string>
+    <string name="namaz_step4"><b> <br>4.</br></b> <br>Face the Qibla. \nThis is the direction all Muslims face to turn in prayer towards the Holy Ka bah. The Holy Mosque in Mecca is the most revered place of worship for Muslims around the entire world. All Muslims are required to face the Ka bah five times every day when offering their prayers.</br>
+
+    </string>
+    <string name="namaz_step5"><b> <br>5.</br></b> <br>	Pray at the proper time. \nThe five prayers of each day take place at very specific times according to one s geographic location and the time of year. For each one, there is a brief period of time it can be performed, determined by the rising and falling of the sun. Each fard salah takes about 5 to 10 minutes from start to finish, but should never be hurried.</br>
+
+    </string>
+    <string name="namaz_step6"><b> <br>6.</br></b> <br>Learn to say prayers in Arabic. \n Salah must be performed in the Arabic language because this is the language that the Qur’an was revealed in. It also allows Muslims outside of Arabic-speaking countries to recite the prayers and understand what is being said. Speaking all prayers in the same language avoids the confusion of translating words into other languages.</br>
+                                            \n•	Use online sources to help you pronounce the obligatory prayer words, such as Rosetta Stone , Salaam Arabic , hosted by Pangaea Learning, Madinah Arabic or Youtube sources.
+                                            \n•	Take a course in Arabic at your local college. Learn and practice the correct pronunciations with an Arabic speaker as the prayer may be invalid if it is not recited correctly.
+                                            \n•    Non-Arabic speaking children will benefit from attending evening or weekend madrassa classes to learn Arabic and study the Qur an.
+
+
+    </string>
+    <string name="namaz_step7"><b> <br>7.</br></b> <br>	Cover yourself. \nMen and women must both cover themselves with material that covers the skin throughout the prayer. While women must cover everything but their faces and hands, men must keep the area between their navel and knees covered.</br>
+                                            \n•	The material must cover the body during prayer movements. So if, for example, bending causes a piece of material to slip and expose skin on a woman’s neck, she would need to ensure that her clothing is tucked in properly or put more clothing on before she can start her prayer.
+    </string>
+    <string name="namaz_step8"><b> <br>8.</br></b> <br>	Make your intention known in your heart.\nBefore initiating the salat, it is important that you have the intention to pray. This can be in your own language.</br>
+                                            \n•	For example, you may say (in your heart, not out loud) "I intend to perform two rakats Fajr salah, seeking nearness to Allaah, in obedience to Him".
+    </string>
+    <string name="namaz_step9"><b> <br>9.</br></b> <br>	Raise your hands up next to your ears and shoulders, then say Allāhu akbar</br>
+                                            \n•	This translates to "Allah is the greatest." Do this while standing (or sitting if you can t stand).
+                                            \n•	The fingers should be spaced when the hands are raised.
+    </string>
+    <string name="namaz_step10"><b> <br>10.</br></b> <br> Place your right hand over your left hand. \nPlace your hands either on your navel, on your chest, or between the two; there s a difference of opinion between Islamic schools of thoughts. Keep your eyes focused on the ground. It helps to keep your sight fixed on where your head will rest when prostrating later. Do not let your eyes wander.</br>
+                                            \n•  Recite the optional Istiftah Du a (opening prayer):
+                                                    Subhanakal-lahumma Wabihamdika watabarakas-muka wataaaala Jadduka wala ilaha ghayruk. A’auodu billaahi minash-shaytaanir rajeem Bis-millaahir rahmaanir raheem.
+                                            \n•  Follow it with Surah Al-Fatiha (this Surah is recited in each Rak ah): Bismillaahir Rahmaanir Raheem Alhamdu lillaahi Rabbil  aalameen Ar-Rahmaanir-Raheem Maaliki Yawmid-Deen Iyyaaka na budu wa lyyaaka nasta een Ihdinas-Siraatal-Mustaqeem Siraatal-ladheena an amta  alaihim Ghayril-maghdoobi  alaihim wa lad-daaalleen
+                                            \n•  Recite any other surah or any part of the Qu ran, such as Surah Ikhlas : Qul huwal laahu ahad Allah hus-samad Lam yalid wa lam yoolad Wa lam yakul-lahu kufuwan ahad.
+                                            \n•  Reciting a surah after Al-Fatiha is only done in the first 2 units (Rakaa s) of fardh salat while in sunnah mu akkadah it is done in all units (Rakaa s).
+    </string>
+    <string name="namaz_step11"><b> <br>11.</br></b> <br> Say "Allahu Akbar" and bend down. \nBend your body so that your back and neck are as straight as possible and level with the ground, keeping your eyes focused on the ground and keep your fingers and palm on the knees. Your back and head should be at a 90° angle with your legs. You don t need to make a perfect angle; your body should be relaxed. This position is called ruku.</br>
+                                            \n•	While bowing, say, Subhanna Rabbiyal Adheem three times. This translates to, "Glorious is my Lord the most great."
+
+    </string>
+
+    <string name="namaz_step12"><b> <br>12.</br></b> <br> Stand back up (raise from ruku). \nWhile rising up recite Samiallah Huliman Hamidah with your arms beside you. This means "Allah hears those who praise Him".</br>
+                                            \n•	While standing up, recite Rabana Walakal Hamd (Our Lord, all praise is for you) once. You can also add Hamdan Katheeran Tayyiban Mubaarakan Feeh" (praise which is abundant, excellent and blessed) after.
+    </string>
+
+    <string name="namaz_step13"><b> <br>13.</br></b> <br> Say Allahu Akbar and prostrate. \nPlace your head, knees and hands on the floor. \n  While "sujood" (prostration) make sure that your forehead and nose touch the ground. This is the position called "sajdah."</br>
+                                            \n•  When you are positioned fully, say Subhanna Rabbiyal A laa (Glorious is my Lord, the most High) three times.
+                                            \n•  Your forearms should not be on the floor.
+                                            \n•  Your fingers should be together.
+
+    </string>
+
+    <string name="namaz_step14"><b> <br>14.</br></b> <br> Rise from sajdah and sit on your knees. \nPlace your left foot from ball to heel on the floor. Your right foot should be toes on the floor only. Place your hands flat on your knees. You can recite Allaahumma-ghfir lee warhamnee wajburnee, warfa’nee, wa  aafinee war zuqnee (O Allah, forgive me, have mercy on me, strengthen me, raise me in status, pardon me and grant me provision).</br>
+                                            \n•  There are other du as that you can recite in this position, such as Allahuma-ghfirlee twice (O Allah, forgive me).
+                                            \n•  Return to sajdah and say Subhanna Rabbiyal a laa three times.
+    </string>
+    <string name="namaz_step15"><b> <br>15.</br></b> <br> Say Allahu akbar and stand up. You have completed one rak ah.\nDepending on the salah, you may need to complete up to three more.</br>
+                                            \n•  In every second rak ah, after the second sajdah, sit on your knee again. Recite:
+                                                    Tashahhud: At-tahiyyaatu Lillaahi was-salaawaatu wat-tayyibaat. As-salaamu ‘alayka ayyuhan-Nabiyyu wa rahmatullaahi wa barakaatuhu. As-salaamu ‘alayna wa ‘ala ‘ibaad-illaah-his-saaliheen. Ash-hadu al-aa ilaaha ill-Allaah wa ash-hadu anna Muhammadan ‘abduhu wa rasooluhu
+                                            \n"All compliments, prayers and pure words are due to Allaah. Peace be upon you, O Prophet, and the mercy of Allaah and His blessings. Peace be upon us and upon the righteous slaves of Allaah. I bear witness that there is no god except Allaah and I bear witness that Muhammad is His slave and Messenger".
+                                            \n•  Durood: Allaahumma salli ‘ala Muhammad, wa ‘ala aali Muhammad, kama sallayta ‘ala Ibraaheem, wa ‘ala aali Ibraaheem, fil aalameen innak hameedun majeed, wa baarik ‘ala Muhammad, wa ‘ala aali Muhammad, kama baarakta ‘ala Ibraaheem, wa ‘ala aali Ibraaheem, fil aalameen innak hameedun majeed
+                                            \n   "O Allaah, send prayers upon Muhammad and upon the family of Muhammad, as You sent prayers upon Ibraaheem and the family of Ibraaheem, You are indeed Worthy of Praise, Full of Glory. O Allaah, bless Muhammad and the family of Muhammad as You blessed Ibraaheem and the family of Ibraaheem, You are indeed Worthy of Praise, Full of Glory".
+    </string>
+    <string name="namaz_step16"><b> <br>16.</br></b> <br> Finish the prayer with tasleem. \nAfter the tashahhud, durood, and any du a you wish to recite, end the prayer by:</br>
+                                            \n•  Turning your head to the right and saying, As-salamu alaykum wa Rahmatullahi wa Barakaatuhu. The angel who records your good deeds is to this side.
+                                            \n•  Turning your head to the left and saying, As-salamu alaykum wa Rahmatullahi wa Barakaatuhu. The angel who records your wrongful deeds is to this side. The prayers have ended!
+                                            \n•  Another variation of the tasleem is by saying As-salamu alaykum wa Rahmatullah.
+    </string>
+
+
+    <string name="txtghusl">
+        <br>Muslim adults perform an ablution, called ghusl, prior to rituals and prayers. This full-body ritual (compared to the partial-body ritual, wudu) is required for men and women in order to be considered pure in body after certain acts. In the ghusl ritual, the entire body must be washed and rubbed clean in order to remove impurities from the body.
+</br>
+    </string>
+    <string name="ghusl_step1">
+     <n><br><b>  Steps:- </b></br></n>
+       <b> <br>1.</br></b><br> Form the intention to purify yourself in your heart.\nThis can be done by simply thinking to yourself that you’re performing this ritual for the pleasure of Allah. This does not need to be stated out loud; just thinking it to yourself is fine.</br>
+                                            \n•	There is no set way to do this “properly.” Just keep your religious intentions in mind in order to satisfy this requirement.
+    </string>
+    <string name="ghusl_step2">
+         <b> <br>2.</br></b> <br> Go to a private area to perform the ritual, if you can. \nIt’s considered sinful in Islam to expose the lower half of your body to other people. The easiest way to do this is to simply perform the ritual in your private bathroom with the door closed and locked.</br>
+                                            \n• The exception to this rule is that you’re allowed to expose yourself to your marital spouse.
+    </string>
+    <string name="ghusl_step3"><b> <br>3.</br></b> <br>Find a source of clean water you can use. \nIn addition to an ordinary shower or bath, this source can also include rain, well, spring, sea, river snowmelt, or pond water. However, avoid using impure water or water that has already been used for something else.</br>
+                                             \n•  Note that discolored water or water that may contain bodily fluids from animals or humans cannot be used for the ghusl ritual.
+                                             \n•  Make sure to use safe water to perform this ritual, especially if you’re in an area where the sanitation of the local water supply is in question.
+                                             \n•  Use clean earth and rub it over your face and hands if you are traveling and can’t find a source of clean water. This is known as tayammum. Afterwards, perform ghusl with water as soon as you find a water source.
+
+    </string>
+    <string name="ghusl_step4"><b> <br>4.</br></b> <br>Say “bismillah” out loud to invoke the name of Allah. \nThis is a verbal cue that you’re performing ghusl for the pleasure of Allah. This is also a reminder to yourself that this is an important religious ritual and not just a bath.</br>
+                                             \n•  You can also say the longer phrase, Bismillahir-Rahmanir-Raheem, if you wish. This means "In the name of Allah, the most gracious, the most merciful."
+    </string>
+    <string name="ghusl_step5"><b> <br>5.</br></b> <br>	Wash your hands up to and including your wrists first. \nWash your right hand thoroughly, making sure to wash and rub in between each of the fingers. Do this 3 times, then wash your left hand 3 times in the same fashion.</br>
+                                             \n•  Just like with regular ablution, you should remove nail polish before performing this ritual. Men and women must also remove anything that may prevent water from washing the skin, such as jewelry.
+    </string>
+    <string name="ghusl_step6"><b> <br>6.</br></b> <br>Move on to washing your private parts and any contaminated areas. \nRemove all traces of semen or vaginal discharge on your private parts with water. If these fluids are on any other parts of your body, such as your hands, wash these as well.</br>
+                                            \n•	Be sure to do this 3 times to fully purify yourself.
+
+    </string>
+    <string name="ghusl_step7"><b> <br>7.</br></b> <br> Douse your head, face, and neck with water 3 times. \nBe sure to wash your head deeply enough that the water reaches all the way down to the skin on your scalp. If you have a beard or other facial hair, wash underneath this area as well. Do not leave any dry areas on your head.</br>
+                                            \n•	If you have a beard, take a handful of water below your chin and rub it through your beard to wash it.
+                                            \n•	Be sure to wash your ears as part of your head. However, you do not have to wash the inside of your ears during this process.
+    </string>
+    <string name="ghusl_step8"><b> <br>8.</br></b> <br> Wash the entire right side of your body next, from shoulder to foot. \nUse your left hand to rub the water all over the right side of your body, taking care not to leave any area unwashed. Make sure you include your back, thighs, legs, feet, and private parts in the washing.</br>
+                                            \n•	If you’re using a cup or bucket to pour water over yourself, you may need to pour a liberal amount of water on your body to make sure you wash all of it.
+    </string>
+    <string name="ghusl_step9"><b> <br>9.</br></b> <br>	Repeat this process on the left side of your body. \nWash the left side of your body from your shoulders all the way down to your feet. Once again, make sure you’ve washed every part of your body during this process.</br>
+                                            \n•	Be aware that missing a single part of your body makes the ritual null. It should be performed in detail with the intention in your heart to become clean.
+                                            \n•	Note that there isn’t scholarly consensus regarding the order in which the ghusl is performed. While most scholars argue that the right side of the body should be washed first, some also claim that the entire body should be washed after the head and face.
+    </string>
+
+
+    <string name="ghusl_step10"><b> <br>11.</br></b> <br>Dry yourself off with a clean towel, if desired, and get dressed. \nYou’re not obligated to dry off after finishing the ghusl. However, if you do choose to dry your body with a towel, make sure the towel is completely clean. Otherwise, you’ll have to restart the whole process! </br>
+    </string>
+
+    <string name="ghusl_step11"><b> <br>1.</br></b> <br> Consider performing ghusl in situations where it’s merely preferred. \nThere are some situations where ghusl is not strictly required, but is generally recommended. Some situations where ghusl is recommended include:</br>
+                                            \n•	When a non-Muslim has converted to Islam.
+                                            \n•    Before commencing Friday prayers.
+                                            \n•    Before commencing Eid prayers.
+                                            \n•    After washing a corpse.
+                                            \n•    Before undertaking a pilgrimage to Mecca.
+    </string>
+
+    <string name="ghusl_step12"><b> <br>2.</br></b> <br> Remember that ghusl is required after the end of menstrual bleeding. \nDo this as soon as possible after your menstruation stops, preferably before your next prayer. If you see recurrent spotting or bleeding, perform ghusl again to purify yourself after the bleeding stops again.</br>
+                                            \n•  This also extends to bleeding after childbirth. If there’s no bleeding afterwards, ghusl should be performed on the 40th day after childbirth.
+    </string>
+
+    <string name="ghusl_step13"><b> <br>3.</br></b> <br> Wash any Muslim who has died by natural causes as soon as possible. \nThis can be done as part of the funeral rituals for the deceased and should be performed as soon as possible after death. Typically, adult members of the deceased’s family will perform the required ghusl.</br>
+                                            \n•  Note that there is an exception for those who die in battle, who should not be washed in a ghusl ritual.
+    </string>
+    <string name="ghusl_step14"><b> <br>4.</br></b> <br> Note that ghusl is required after an instance of pleasurable ejaculation. \nThis includes ejaculation after sexual intercourse or accidental ejaculation as a result of a wet dream. If semen is released without any accompanying pleasure, however, you don’t have to perform ghusl in that instance.</br>
+                                            \n•  For example, if a person’s body emits semen as a result of sickness, then that person does not have to perform ghusl.
+                                            \n•  Note that ghusl is not required for merely discharging madhiy (urethral fluid), which sometimes seeps out after thinking of or desiring intercourse.
+                                            \n•  If you’ve had sexual intercourse without ejaculation, you will also need to perform ghusl in this instance.
+    </string>
+
+
     <string name="title_activity_dua">dua</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
@@ -80,6 +230,21 @@ order below, and they must be done without long pauses between each of the steps
     <string name="latitude" />
     <string name="locationunready" />
     <string name="longitude" />
+    <string name="more_app_link">https://play.google.com/store/apps/</string>
+    <string name="report_email_subject">Report Subject</string>
+    <string name="report_email_body">Report Content:\n%s</string>
+    <string name="no_email_app_message">No email app found</string>
+    <string name="menu_zakat">Zakat Calculator</string>
+    <string name="localprice">Enter the amount in your local currency</string>
+    <string name="totalprice">Total amount :</string>
+    <string name="zakatcalcul">Enter the value of the money you want to take out your zakat to get the result using the zakat calculator</string>
+    <string name="goldprice">The price of one gram of gold:</string>
+    <string name="localgoldprice">The price of a gram of gold in your country today</string>
+    <string name="calculate">Calculate</string>
+    <string name="nissab">Nissab</string>
+    <string name="nozakat">There is no zakat to take out. The amount did not reach the quorum.</string>
+    <string name="zakatprice">The amount of zakat to be paid:</string>
+    <string name="internetfirst">You must connect to the Internet first</string>
 
     <string name="manualcorr" />
 
@@ -88,7 +253,7 @@ order below, and they must be done without long pauses between each of the steps
     <string name="internetfound">Data renewing process</string>
     <string name="internetlost">To refresh the page, you must be connected to the Internet</string>
     <string name="hello" />
-    <string name="firstalertdialogmsg">We thank you for downloading this application, do not forget to share it with loved ones and take the initiative to recite, dhikr and good deeds</string>
+    <string name="firstalertdialogmsg">We thank you for downloading this application, do not forget to share it with loved ones and take the initiative to recite, dhikr and good deeds \n\n\n\nPress Back Again to go to Main Screen.</string>
 
     <string name="clickbackagaintoexit">Press again to exit the application</string>
     <string name="errorloadprayertimes">Faulty renewal of prayer times</string>

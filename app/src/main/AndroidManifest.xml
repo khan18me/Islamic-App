@@ -24,6 +24,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.pyaraislam.islamicapp.GoldPrice"
+            android:exported="false" />
+        <activity
+            android:name="com.pyaraislam.islamicapp.zakat.ZakatCalculator"
+            android:exported="false" />
+        <activity
+            android:name="com.pyaraislam.islamicapp.Settings"
+            android:exported="false" />
+        <activity
+            android:name="com.pyaraislam.islamicapp.namaz.ghusl"
+            android:exported="false" />
+        <activity
+            android:name="com.pyaraislam.islamicapp.namaz.namaz_proc"
+            android:exported="false" />
         <activity
             android:name="com.pyaraislam.islamicapp.reels.reels"
             android:exported="false" />
@@ -64,7 +80,7 @@
         <activity android:name="com.pyaraislam.islamicapp.Quran" />
         <activity android:name="com.pyaraislam.islamicapp.Tasbih" />
         <activity
-            android:name="com.pyaraislam.islamicapp.MainActivity"
+            android:name="com.pyaraislam.islamicapp.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,6 +88,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.pyaraislam.islamicapp.MainActivity"/>
     </application>
 
 </manifest>

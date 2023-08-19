@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#999cb3eb"
     tools:context="com.pyaraislam.islamicapp.Waqiah">
 
 
@@ -12,23 +13,43 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
             android:text="Islamic Waqia"
             android:id="@+id/tv_waqiah"
             android:textSize="32sp"
             android:textAlignment="center"
             android:fontFamily="@font/ubuntu"
             android:textStyle="bold"
-            android:textColor="@color/colorCyan1">
+            android:textColor="@color/lightblack"/>
 
-        </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_press"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="250dp"
+            android:padding="15dp"
+            app:srcCompat="@drawable/backicon" />
+    </RelativeLayout>
+
+
 
         <WebView
             android:layout_below="@+id/tv_waqiah"
             android:layout_width="match_parent"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/lightblue"
+
             android:layout_marginLeft="15dp"
             android:id="@+id/webView1"/>
 
@@ -51,6 +72,7 @@
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
             android:layout_height="250sp"
+            android:background="@color/lightblue"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
             android:id="@+id/webView2"/>
@@ -72,6 +94,7 @@
             android:layout_below="@+id/tv_webView2"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
@@ -94,6 +117,7 @@
             android:layout_below="@+id/tv_webView3"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
@@ -119,6 +143,7 @@
             android:layout_below="@+id/tv_webView4"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
@@ -142,6 +167,7 @@
             android:layout_below="@+id/tv_webView5"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
@@ -164,6 +190,7 @@
             android:layout_below="@+id/tv_webView6"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
@@ -186,6 +213,7 @@
             android:layout_below="@+id/tv_webView7"
             android:layout_marginTop="35dp"
             android:layout_width="match_parent"
+            android:background="@color/lightblue"
             android:layout_height="250sp"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"

@@ -38,10 +38,20 @@ public class QiblaFinder extends AppCompatActivity {
     SharedPreferences prefs;
     GPSTracker gps;
 
+    ImageView backpress;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qibla_finder);
+
+        backpress=findViewById(R.id.back_press);
+        backpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                QiblaFinder.super.onBackPressed();
+            }
+        });
 
 
         prefs = getSharedPreferences("qibla", MODE_PRIVATE);

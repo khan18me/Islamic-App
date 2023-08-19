@@ -29,7 +29,9 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 import com.pyaraislam.islamicapp.dua.MainActivityDua;
+
 import com.pyaraislam.islamicapp.reels.reels;
+import com.pyaraislam.islamicapp.zakat.ZakatCalculator;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -71,20 +73,24 @@ public class MainActivity extends AppCompatActivity {
 
         CardView card1 = findViewById(R.id.tasbeeh);
         CardView card2 = findViewById(R.id.quran);
-        CardView card3 = findViewById(R.id.hadees);
+
         CardView card4 = findViewById(R.id.dua);
         CardView card5 = findViewById(R.id.qibla_direction);
         CardView card6 = findViewById(R.id.namaz);
         CardView card7 = findViewById(R.id.wallpaper);
         CardView card8 = findViewById(R.id.waqiah);
+        CardView card9 = findViewById(R.id.settings);
+        CardView card10 = findViewById(R.id.zakat);
         card1.setOnClickListener(onClickListener);
         card2.setOnClickListener(onClickListener);
-        card3.setOnClickListener(onClickListener);
+
         card4.setOnClickListener(onClickListener);
         card5.setOnClickListener(onClickListener);
         card6.setOnClickListener(onClickListener);
         card7.setOnClickListener(onClickListener);
         card8.setOnClickListener(onClickListener);
+        card9.setOnClickListener(onClickListener);
+        card10.setOnClickListener(onClickListener);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
@@ -431,9 +437,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.quran:
                 intent = new Intent(MainActivity.this, Quran.class);
                 break;
-            case R.id.hadees:
-                intent = new Intent(MainActivity.this, Quran.class);
-                break;
+
             case R.id.dua:
                 intent = new Intent(MainActivity.this, MainActivityDua.class);
                 break;
@@ -448,6 +452,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.waqiah:
                 intent = new Intent(MainActivity.this, Waqiah.class);
+                break;
+            case R.id.settings:
+                intent = new Intent(MainActivity.this,Settings.class);
+                break;
+            case R.id.zakat:
+                intent = new Intent(MainActivity.this, ZakatCalculator.class);
                 break;
         }
         if (intent != null) {

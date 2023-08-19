@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#999cb3eb"
     tools:context="com.pyaraislam.islamicapp.dua.MainActivityDua">
 
     <LinearLayout
@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:orientation="vertical">
+
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -22,37 +24,37 @@
                 android:layout_width="81dp"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
                 android:layout_marginEnd="250dp"
                 android:padding="15dp"
                 app:srcCompat="@drawable/backicon" />
 
-            <ImageView
-                android:layout_width="61dp"
-                android:layout_height="52dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                app:srcCompat="@drawable/searchicon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30sp"
+                android:fontFamily="@font/ubuntu"
+                android:padding="10dp"
+                android:text="DUA"
+                android:textAllCaps="true"
+                android:textColor="@color/lightblack"
+                android:textSize="30sp" />
+
 
 
         </RelativeLayout>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginLeft="20dp"
-            android:text="DUA"
-            android:textAllCaps="true"
-            android:textSize="30sp" />
+
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
 
@@ -64,7 +66,11 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/d2d"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/btndesign">
 
                     <TextView
@@ -93,7 +99,7 @@
                     android:layout_width="100dp"
                     android:layout_height="86dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="7dp"
                     android:src="@drawable/daytoday" />
 
@@ -108,7 +114,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/lightWhite"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
             <RelativeLayout
@@ -124,14 +131,18 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/prayerdua"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/bg2">
 
                     <TextView
                         android:layout_width="210dp"
                         android:layout_height="100dp"
                         android:padding="15dp"
-                        android:text="Prayer"
+                        android:text="PRAYER"
                         android:textColor="@android:color/holo_orange_dark"
                         android:textSize="30sp"
                         android:visibility="visible" />
@@ -168,7 +179,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
             <RelativeLayout
@@ -184,14 +196,18 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/healthdua"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/bg4">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="210dp"
                         android:layout_height="100dp"
                         android:padding="15dp"
-                        android:text="HEALTH &amp; MORE"
+                        android:text="HEALTH"
                         android:textColor="@android:color/holo_green_dark"
                         android:textSize="28sp"
                         android:visibility="visible" />

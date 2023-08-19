@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -14,6 +15,7 @@ import androidx.cardview.widget.CardView;
 import com.example.islamicapp.R;
 
 public class daytoday extends AppCompatActivity {
+    ImageView backpress;
 
 
     TextView[] detailsTextArray = new TextView[8];
@@ -24,6 +26,14 @@ public class daytoday extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daytoday);
+
+        backpress=findViewById(R.id.back_press);
+        backpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                daytoday.super.onBackPressed();
+            }
+        });
 
 
         detailsTextArray[0] = findViewById(R.id.d2d_details1);

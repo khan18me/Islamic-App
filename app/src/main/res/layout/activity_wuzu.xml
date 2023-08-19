@@ -21,8 +21,9 @@
 
             <ImageView
                 android:id="@+id/back_press1"
-                android:layout_width="55dp"
+                android:layout_width="85dp"
                 android:layout_height="match_parent"
+                android:scaleType="centerCrop"
                 android:layout_centerVertical="true"
                 android:padding="15dp"
                 app:srcCompat="@drawable/backicon" />
@@ -39,182 +40,193 @@
             android:textAllCaps="true"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold"/>
 
 
         <TextView
             android:id="@+id/txtwh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/txtwh"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w1"></ImageView>
+            android:src="@drawable/w1"/>
 
         <TextView
             android:id="@+id/stp1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step1"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w2"></ImageView>
+            android:src="@drawable/w2"/>
 
         <TextView
             android:id="@+id/stp2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step2"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w3"></ImageView>
+            android:src="@drawable/w3"/>
 
         <TextView
             android:id="@+id/stp3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step3"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w4"></ImageView>
+            android:src="@drawable/w4"/>
 
         <TextView
             android:id="@+id/stp4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step4"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w5"></ImageView>
+            android:src="@drawable/w5"/>
 
         <TextView
             android:id="@+id/stp5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step5"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w6"></ImageView>
+            android:src="@drawable/w6"/>
 
         <TextView
             android:id="@+id/stp6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step6"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w7"></ImageView>
+            android:src="@drawable/w7"/>
 
         <TextView
             android:id="@+id/stp7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step7"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w8"></ImageView>
+            android:src="@drawable/w8"/>
 
         <TextView
             android:id="@+id/stp8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step8"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w9"></ImageView>
+            android:src="@drawable/w9"/>
 
         <TextView
             android:id="@+id/stp9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:paddingLeft="2dp"
             android:text="@string/step9"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingTop="20dp"
-            android:src="@drawable/w10"></ImageView>
+            android:src="@drawable/w10"/>
 
         <TextView
             android:id="@+id/stp10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/changa_light"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
@@ -222,7 +234,7 @@
             android:paddingLeft="2dp"
             android:paddingBottom="10dp"
             android:text="@string/step10"
-            android:textColor="@color/black"></TextView>
+            android:textColor="@color/black"/>
 
 
     </LinearLayout>

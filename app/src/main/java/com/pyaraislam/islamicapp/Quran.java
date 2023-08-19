@@ -5,24 +5,34 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.islamicapp.R;
+import com.pyaraislam.islamicapp.dua.MainActivityDua;
 
 
 public class Quran extends AppCompatActivity {
 
     private RelativeLayout tarjuma_quran, english_quran, hindi_quran;
 
-
+    ImageView backpress;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quran);
+
+        backpress=findViewById(R.id.back_press);
+        backpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Quran.super.onBackPressed();
+            }
+        });
 
         tarjuma_quran = findViewById(R.id.tarjuma_quran);
         tarjuma_quran.setOnClickListener(new View.OnClickListener() {

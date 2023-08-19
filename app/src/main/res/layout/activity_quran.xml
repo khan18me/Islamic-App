@@ -4,7 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#999cb3eb"
     tools:context="com.pyaraislam.islamicapp.Quran">
+
+
+    <TextView
+        android:id="@+id/txthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/font_large"
+        android:text="Quran"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_press"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:padding="15dp"
+            app:srcCompat="@drawable/backicon" />
+
+    </RelativeLayout>
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,6 +48,7 @@
         android:layout_marginTop="150dp"
         android:padding="10dp"
         app:layout_constraintHorizontal_bias="0.0">
+
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -24,6 +59,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/lightWhite"
                 android:id="@+id/arabic_quran">
                 <TextView
                     android:layout_width="wrap_content"
@@ -56,6 +92,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/lightWhite"
                 android:onClick="openPdf"
                 android:id="@+id/tarjuma_quran">
                 <TextView
@@ -101,6 +138,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/lightWhite"
                 android:onClick="openPdf2"
                 android:id="@+id/english_quran">
                 <TextView
@@ -133,6 +171,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/lightWhite"
                 android:onClick="openPdf3"
                 android:id="@+id/hindi_quran">
                 <TextView

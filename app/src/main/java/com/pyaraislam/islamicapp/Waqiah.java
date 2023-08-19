@@ -1,19 +1,30 @@
 package com.pyaraislam.islamicapp;
 
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.islamicapp.R;
 
 public class Waqiah extends AppCompatActivity {
+    ImageView backpress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_waqiah);
+
+        backpress=findViewById(R.id.back_press);
+        backpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Waqiah.super.onBackPressed();
+            }
+        });
 
         WebView webView1 = findViewById(R.id.webView1);
         String video1 = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KuU3Cpg-KtY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";

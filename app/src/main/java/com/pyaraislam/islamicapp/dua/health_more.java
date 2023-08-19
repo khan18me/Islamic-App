@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -17,10 +18,20 @@ public class health_more extends AppCompatActivity {
     TextView[] detailsTextArray = new TextView[5];
     LinearLayout[] layoutArray = new LinearLayout[5];
 
+    ImageView backpress;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_health_more);
+
+        backpress=findViewById(R.id.back_press);
+        backpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                health_more.super.onBackPressed();
+            }
+        });
 
         detailsTextArray[0] = findViewById(R.id.health_more_details1);
         detailsTextArray[1] = findViewById(R.id.health_more_details2);

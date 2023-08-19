@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="#7986CB"
     tools:context="com.pyaraislam.islamicapp.MainActivity">
 
 
@@ -18,17 +18,32 @@
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:id="@+id/logoName"
-            android:text="Pyara Islam"
+            android:text="پیارا اسلام"
             android:textSize="30sp"
-            android:textColor="@color/colorCyan2"
+            android:textColor="#FFDE59"
             android:layout_marginStart="28dp"
-            android:fontFamily="@font/ubuntu"
             android:layout_marginTop="40dp"
-
+            android:fontFamily="@font/ubuntu"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/logoImage"/>
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="5dp"
+            android:text="Pyara Islam"
+            android:textColor="#FFDE59"
+            android:fontFamily="@font/ubuntu"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/logoImage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logoName" />
 
         <ImageView
             android:layout_width="160dp"
@@ -44,13 +59,14 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="18dp"
             android:id="@+id/test"
             app:cardElevation="2dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/logoImage">
             <LinearLayout
+                android:background="@color/lightblue"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:orientation="vertical"
@@ -70,7 +86,8 @@
                         android:id="@+id/awkat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-black"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/lightblack"
                         android:text="Salah Times"
                         android:layout_marginStart="40dp"
                         android:textSize="20sp" />
@@ -85,7 +102,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/awkat"
-                        android:fontFamily="sans-serif-black"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/lightblack"
                         android:layout_marginTop="5dp"
                         android:layout_marginStart="40dp"
                         android:text="City"
@@ -108,13 +126,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="isha"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textSize="14sp" />
                         <TextView
                             android:id="@+id/isha"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:text="00:00"
                             android:textSize="18sp" />
                     </LinearLayout>
@@ -129,13 +149,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="maghrib"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textSize="14sp" />
                         <TextView
                             android:id="@+id/maghrib"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:text="00:00"
                             android:textSize="18sp" />
                     </LinearLayout>
@@ -150,13 +172,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="asr"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textSize="14sp" />
                         <TextView
                             android:id="@+id/asr"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:text="00:00"
                             android:textSize="18sp" />
                     </LinearLayout>
@@ -171,13 +195,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="dohr"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textSize="14sp" />
                         <TextView
                             android:id="@+id/duhur"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:text="00:00"
                             android:textSize="18sp" />
                     </LinearLayout>
@@ -192,13 +218,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="fajr"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textSize="14sp" />
                         <TextView
                             android:id="@+id/fajr"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:text="00:00"
                             android:textSize="18sp" />
                     </LinearLayout>
@@ -214,6 +242,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightblue"
             android:id="@+id/row1"
             android:orientation="horizontal"
 
@@ -241,7 +271,8 @@
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:background="@color/lightblue">
 
 
                         <androidx.cardview.widget.CardView
@@ -270,6 +301,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:padding="5dp"
                                 android:text="Tasbih"
                                 android:textStyle="bold" />
@@ -301,6 +334,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:padding="5dp"
                                 android:text="Quran"
                                 android:textStyle="bold" />
@@ -332,10 +367,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:padding="5dp"
-                                android:text="Namaz"
+                                android:text="Prayer"
                                 android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/lightblue">
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/dua"
@@ -355,7 +400,7 @@
                                 android:layout_height="35dp"
                                 android:layout_gravity="center|top"
                                 android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/dua" />
+                                app:srcCompat="@drawable/dua1" />
 
                             <TextView
                                 android:id="@+id/tv_dua"
@@ -363,15 +408,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:padding="5dp"
                                 android:text="Dua"
                                 android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
 
 
                         <androidx.cardview.widget.CardView
@@ -402,39 +444,12 @@
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:padding="5dp"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:textStyle="bold"/>
                         </androidx.cardview.widget.CardView>
 
-                        <androidx.cardview.widget.CardView
-                            android:id="@+id/hadees"
-                            android:layout_width="match_parent"
-                            android:layout_height="75dp"
-                            android:layout_margin="10dp"
-                            android:layout_weight="1"
-                            app:cardBackgroundColor="@color/white"
-                            app:cardCornerRadius="7dp"
-                            app:cardElevation="10dp"
-                            app:cardMaxElevation="12dp"
-                            app:cardPreventCornerOverlap="true">
 
-                            <ImageView
-                                android:id="@+id/iv_hadees"
-                                android:layout_width="50dp"
-                                android:layout_height="35dp"
-                                app:srcCompat="@drawable/hadees"
-                                android:layout_gravity="center|top"
-                                android:layout_marginTop="10dp"/>
-
-                            <TextView
-                                android:id="@+id/tv_hadees"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Hadees"
-                                android:layout_gravity="center_horizontal|bottom"
-                                android:padding="5dp"
-                                android:layout_marginTop="35dp"
-                                android:textStyle="bold"/>
-                        </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/waqiah"
@@ -452,7 +467,7 @@
                                 android:id="@+id/iv_waqiah"
                                 android:layout_width="50dp"
                                 android:layout_height="35dp"
-                                app:srcCompat="@drawable/waqiah"
+                                app:srcCompat="@drawable/story"
                                 android:layout_gravity="center|top"
                                 android:layout_marginTop="10dp"/>
 
@@ -464,38 +479,12 @@
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:padding="5dp"
                                 android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
                                 android:textStyle="bold"/>
                         </androidx.cardview.widget.CardView>
 
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10dp"
-                            android:layout_weight="1"
-                            app:cardBackgroundColor="@color/white"
-                            app:cardCornerRadius="7dp"
-                            app:cardElevation="10dp"
-                            app:cardMaxElevation="12dp"
-                            app:cardPreventCornerOverlap="true">
 
-                            <ImageView
-                                android:id="@+id/imageView8"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                app:srcCompat="@android:drawable/sym_contact_card"
-                                android:layout_gravity="center|top"
-                                android:layout_marginTop="10dp"/>
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Report"
-                                android:layout_gravity="center_horizontal|bottom"
-                                android:padding="5dp"
-                                android:layout_marginTop="35dp"
-                                android:textStyle="bold"/>
-                        </androidx.cardview.widget.CardView>
                     </TableRow>
 
             </TableLayout>
@@ -506,6 +495,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/lightblue"
             android:id="@+id/row2"
             android:orientation="horizontal"
             android:layout_marginBottom="30dp"
@@ -526,17 +516,18 @@
                 app:cardPreventCornerOverlap="true">
 
                 <TableLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/table2">
                     <TableRow
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/lightblue">
 
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/wallpaper"
-                        android:layout_width="80dp"
+                        android:layout_width="60dp"
                         android:layout_height="75dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
@@ -556,22 +547,57 @@
 
                         <TextView
                             android:id="@+id/tv_wallpaper"
-                            android:layout_width="75dp"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:text="Wallpaper"
                             android:layout_gravity="center_horizontal|bottom"
                             android:padding="5dp"
                             android:layout_marginTop="35dp"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textStyle="bold"/>
                     </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/zakat"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="7dp"
+                            app:cardElevation="10dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true">
+
+                            <ImageView
+                                android:id="@+id/iv_zakat"
+                                android:layout_width="50dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/zakat" />
+
+                            <TextView
+                                android:id="@+id/tv_zakat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Zakat"
+                                android:layout_gravity="center_horizontal|bottom"
+                                android:padding="5dp"
+                                android:layout_marginTop="35dp"
+                                android:fontFamily="@font/ubuntu"
+                                android:textColor="@color/lightblack"
+                                android:textStyle="bold"/>
+                        </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/settings"
-                        android:layout_width="80dp"
+                        android:layout_width="60dp"
                         android:layout_height="75dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         app:cardBackgroundColor="@color/white"
+
                         app:cardCornerRadius="7dp"
                         app:cardElevation="10dp"
                         app:cardMaxElevation="12dp"
@@ -581,7 +607,7 @@
                             android:id="@+id/iv_settings"
                             android:layout_width="50dp"
                             android:layout_height="35dp"
-                            app:srcCompat="@drawable/salat_settings"
+                            app:srcCompat="@drawable/settings"
                             android:layout_gravity="center|top"
                             android:layout_marginTop="10dp"/>
 
@@ -593,39 +619,12 @@
                             android:layout_gravity="center_horizontal|bottom"
                             android:padding="5dp"
                             android:layout_marginTop="35dp"
+                            android:fontFamily="@font/ubuntu"
+                            android:textColor="@color/lightblack"
                             android:textStyle="bold"/>
                     </androidx.cardview.widget.CardView>
 
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/zakat"
-                        android:layout_width="80dp"
-                        android:layout_height="75dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="7dp"
-                        app:cardElevation="10dp"
-                        app:cardMaxElevation="12dp"
-                        app:cardPreventCornerOverlap="true">
 
-                        <ImageView
-                            android:id="@+id/iv_zakat"
-                            android:layout_width="50dp"
-                            android:layout_height="35dp"
-                            android:layout_gravity="center|top"
-                            android:layout_marginTop="10dp"
-                            app:srcCompat="@drawable/zakat" />
-
-                        <TextView
-                            android:id="@+id/tv_zakat"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Zakat"
-                            android:layout_gravity="center_horizontal|bottom"
-                            android:padding="5dp"
-                            android:layout_marginTop="35dp"
-                            android:textStyle="bold"/>
-                    </androidx.cardview.widget.CardView>
                     </TableRow>
                 </TableLayout>
             </androidx.cardview.widget.CardView>

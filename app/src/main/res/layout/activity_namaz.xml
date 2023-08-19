@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#999cb3eb"
     tools:context="com.pyaraislam.islamicapp.Namaz">
 
     <LinearLayout
@@ -23,35 +23,35 @@
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="250dp"
+                android:scaleType="centerCrop"
                 android:padding="15dp"
                 app:srcCompat="@drawable/backicon" />
 
-            <ImageView
-                android:layout_width="61dp"
-                android:layout_height="52dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                app:srcCompat="@drawable/searchicon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/rules_amp_methods"
+                android:fontFamily="@font/ubuntu"
+                android:textColor="@color/lightblack"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:textSize="25sp" />
+
 
 
         </RelativeLayout>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/rules_amp_methods"
-            android:textAllCaps="true"
-            android:textSize="30sp" />
+
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/lightWhite"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
 
@@ -63,7 +63,11 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/wuzu"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/btndesign">
 
                     <TextView
@@ -100,13 +104,14 @@
         </androidx.cardview.widget.CardView>
 
 
-        /*second one*/
+    \
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/lightWhite"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
             <RelativeLayout
@@ -122,14 +127,18 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/prayer"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/bg2">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="25dp"
-                        android:text="NAMAZ"
+                        android:text="PRAYER"
                         android:textColor="@android:color/holo_orange_dark"
                         android:textSize="30sp"
                         android:visibility="visible" />
@@ -158,13 +167,14 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        /*third one*/
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/lightWhite"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
             <RelativeLayout
@@ -180,14 +190,19 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+
+                    android:id="@+id/ghusl"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/bg3">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="25dp"
-                        android:text="GUSAL"
+                        android:text="GHUSL"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="30sp"
                         android:visibility="visible" />
@@ -215,13 +230,14 @@
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
-        /*fourth one*/
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#00000000"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
             <RelativeLayout
@@ -237,7 +253,11 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="20dp"
+                    android:id="@+id/rakat"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/bg4">
 
                     <TextView

@@ -7,30 +7,36 @@
     android:background="@color/lightWhite"
     tools:context="com.pyaraislam.islamicapp.QiblaFinder">
 
-    <TextView
-        android:id="@+id/aboutustitle"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
-        android:fontFamily="@font/changa_bold"
-        android:gravity="center"
-        android:shadowColor="@color/colorPrimary"
-        android:shadowDx="-2"
-        android:shadowDy="2"
-        android:shadowRadius="1"
-        android:text="Qibla Direction"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp" />
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:onClick="QiblaTips"
-        android:src="@drawable/information"/>
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_press"
+            android:layout_width="81dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="250dp"
+            android:padding="15dp"
+            app:srcCompat="@drawable/backicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:fontFamily="@font/ubuntu"
+            android:padding="10dp"
+            android:text="QIBLA DIRECTION"
+            android:textAllCaps="true"
+            android:textColor="@color/lightblack"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+
+
 
     <ImageView
         android:id="@+id/main_image_dial"

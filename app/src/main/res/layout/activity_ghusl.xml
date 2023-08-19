@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pyaraislam.islamicapp.namaz.ghusl">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_press1"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:padding="15dp"
+                app:srcCompat="@drawable/backicon" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/font_large"
+            android:text="HOW TO PERFORM GHUSL"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtghusl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/txtghusl"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g1"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step1"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g2"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step2"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g3"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step3"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g4"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step4"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g5"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step5"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g6"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step6"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g7"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step7"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g8"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step8"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g9"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step9"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g10"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/changa_light"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="2dp"
+
+            android:text="@string/ghusl_step10"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g11"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step11"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g12"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step12"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g13"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step13"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/g14"/>
+
+        <TextView
+            android:id="@+id/ghusl_stp14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/ghusl_step14"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

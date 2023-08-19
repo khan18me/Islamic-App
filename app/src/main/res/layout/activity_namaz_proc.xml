@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:orientation="vertical"
+    tools:context="com.pyaraislam.islamicapp.namaz.namaz_proc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_press1"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:padding="15dp"
+                app:srcCompat="@drawable/backicon" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/font_large"
+            android:text="HOW TO PERFORM NAMAZ"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtnamaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/txtnamaz"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n1"/>
+
+        <TextView
+            android:id="@+id/namaz_stp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step1"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n2"/>
+
+        <TextView
+            android:id="@+id/namaz_stp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step2"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n3"/>
+
+        <TextView
+            android:id="@+id/namaz_stp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step3"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n4"/>
+
+        <TextView
+            android:id="@+id/namaz_stp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step4"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n5"/>
+
+        <TextView
+            android:id="@+id/namaz_stp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step5"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n6"/>
+
+        <TextView
+            android:id="@+id/namaz_stp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step6"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n7"/>
+
+        <TextView
+            android:id="@+id/namaz_stp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step7"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n8"/>
+
+        <TextView
+            android:id="@+id/namaz_stp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step8"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n9"/>
+
+        <TextView
+            android:id="@+id/namaz_stp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step9"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n10"/>
+
+        <TextView
+            android:id="@+id/namaz_stp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+
+            android:text="@string/namaz_step10"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n11"/>
+
+        <TextView
+            android:id="@+id/namaz_stp11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step11"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n12"/>
+
+        <TextView
+            android:id="@+id/namaz_stp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step12"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n13"/>
+
+        <TextView
+            android:id="@+id/namaz_stp13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step13"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n14"/>
+
+        <TextView
+            android:id="@+id/namaz_stp14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step14"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n15"/>
+
+        <TextView
+            android:id="@+id/namaz_stp15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step15"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/n16"/>
+
+        <TextView
+            android:id="@+id/namaz_stp16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/changa_light"
+            android:paddingLeft="2dp"
+            android:text="@string/namaz_step16"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
